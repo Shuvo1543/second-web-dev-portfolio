@@ -144,3 +144,7 @@ main {
     font-weight: 700;
     line-height: 30px;
 }
+/* What I Do Section Related style */
+.what-i-do{
+    padding:0 115px;
+}
