@@ -164,21 +164,66 @@ main {
     border-radius: 5px;
     background: #FFF;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
-    padding:30px;
+    padding: 30px;
 }
-.skills-container .skills .skill-logo{
-    margin-bottom:30px;
-    width:44px;
+
+.skills-container .skills .skill-logo {
+    margin-bottom: 30px;
+    width: 44px;
 }
-.skills-container .skills .skill-title{
+
+.skills-container .skills .skill-title {
     color: #181818;
     font-size: 20px;
     font-weight: 700;
-    margin-bottom:30px;
+    margin-bottom: 30px;
 }
-.skills-container .skills .skill-description{
-    color:  #757575;
+
+.skills-container .skills .skill-description {
+    color: #757575;
     font-size: 16px;
     font-weight: 400;
-    line-height: 28px; 
+    line-height: 28px;
+}
+
+/* Resume Related Style */
+.resume {
+    display: flex;
+    gap: 70px;
+}
+
+.resume .resume-col-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume .resume-item {
+    margin-top: 30px;
+}
+
+.resume .resume-item .resume-item-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom:10px;
+}
+
+.resume .resume-item .resume-item-location {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.resume .resume-item .resume-item-description {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin:10px 0;
+}
+.download-cv-btn{
+    display:flex;
+    margin:0 auto;
+    margin-top:20px;
 }
