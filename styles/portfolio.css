@@ -270,3 +270,59 @@ textarea {
     font-weight: 400;
     line-height: 28px;
 }
+.hide{
+    display:none;
+}
+
+
+@media screen and (max-width: 576px){
+    .skills-container, .resume, .about .contact-info-container, .footer, .banner-container, nav, nav>ul{
+        flex-direction: column;
+    }
+    .resume, .what-i-do,.about, .footer,nav {
+        padding:20px;
+    }
+    .about .contact-info-container .contact-info-description{
+        text-align:center;
+    }
+    .contact input[type="text"], input[type="email"], textarea{
+        width:80%;
+    }
+    .banner-container{
+        padding:20px 20px 0px 20px
+    }
+    .banner-container .banner-profile img{
+        width:100%;
+    }
+    header{
+        background-color: #FFF8F3;
+        background-image: none;
+    }
+    .bg-primary{
+        margin-bottom:20px;
+    }
+    nav li{
+        margin-right:0;
+        margin-bottom:10px;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px){
+    .contact-info-container{
+        flex-direction: column;
+        text-align:center;
+    }
+    .resume, .what-i-do,.about,nav {
+        padding:20px;
+    }
+    .bg-primary{
+        margin-top:20px;
+    }
+    .banner-container{
+        padding:20px 20px 0px 20px
+    }
+    header{
+        background-color: #FFF8F3;
+        background-image: none;
+    }
+}
